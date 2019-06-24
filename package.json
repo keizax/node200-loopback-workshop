@@ -8,7 +8,7 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
-    "test": "mocha test/*.spec.js --exit",
+    "test": "mocha test/*.spec.js",
     "posttest": "npm run lint && npm audit"
   },
   "dependencies": {
@@ -21,6 +21,7 @@
     "loopback-boot": "^2.6.5",
     "loopback-component-explorer": "^6.2.0",
     "loopback-connector-mongodb": "^4.2.0",
+    "mocha": "^6.1.4",
     "serve-favicon": "^2.0.1",
     "strong-error-handler": "^3.0.0"
   },
