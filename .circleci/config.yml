@@ -26,6 +26,9 @@ jobs:
         
       # run tests!
       - run: yarn test
+        environment: 
+          NODE_ENV: production
+          ENV: production
 
   deploy:
     docker:
